@@ -1,0 +1,39 @@
+body {
+  background-color: #171717;
+  color: #C5C5CD;
+  font-size: 1.75em;
+}
+
+p {
+  font-size: .75em;
+  color: crimson;;
+}
+
+.form__container {
+  width: 40%;
+  background-color: #222222;
+  -webkit-box-shadow: -2px 5px 37px 2px rgba(197,197,205,0.39);
+  -moz-box-shadow: -2px 5px 37px 2px rgba(197,197,205,0.39);
+  box-shadow: -2px 5px 37px 2px rgba(197,197,205,0.39);
+}
+
+.form-control, .form-control:focus {
+  border: 1px solid #C5C5CD;
+  background-color: #222222;
+  color: #C5C5CD;
+  font-size: .75em;
+}
+
+.btn {
+  background-color: #5C74DA;
+  color: #C5C5CD;
+  font-size: .75em;
+}
+
+.error {
+border: 1px solid crimson;
+}
+
+.success {
+  border: 1px solid green;
+}
